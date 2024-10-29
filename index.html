@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>php</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='vista/css/main.css'>
+    <script src="vista/js/cl_operaciones.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold"><b>Programacion Orientada a Objetos(●'◡'●)</b></h1>
+                <p class="col-md-8 fs-4">
+                    uso de html, js y php
+                </p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+
+                    <div class="card-header bg-success text-white">
+                        <h5 class="text-center">Operaciones</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group mb-3">
+                            <select id="selectO" class="form-select">
+                                <option selected disabled>escoja una opcion</option>
+                                <option value="suma">+</option>
+                                <option value="resta">-</option>
+                                <option value="multiplicacion">*</option>
+                                <option value="division">/</option>
+
+                            </select>
+                        </div>
+                        <br>
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control" id="txt_num1" placeholder="numero 1">
+
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="number" class="form-control" id="txt_num2" placeholder="numero 2">
+
+                        </div>
+                        <button id="btnAceptar" class="btn btn-outline-primary">Aceptar</button>
+
+                    </div>
+                </div>
+            </div>
+            <div id="contenedorR" class="col-md-8">
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <script src='vista/js/main.js'></script>
+</body>
+
+</html>
